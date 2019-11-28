@@ -5,7 +5,7 @@ This is still an ongoing project by a group of researchers from the University o
 
 For more technical problems, please contact the author of the package Xiangyu Zhang at zhan6004@umn.edu.
 
-For references, please contact Jie Ding at dingj@umn.edu
+For references, please contact Jie Ding at dingj@umn.edu.
 
 ## A Quick Setup Guide
 
@@ -25,7 +25,7 @@ from onlineChange import stat, bayes, bayes_unknown_pre
 ```
 ## Using This Package
 
-A quick guide of package can be found [here](https://github.com/JieGroup/onlineChange/blob/master/vignettes/user-guide.pdf)
+A quick guide of package can be found [here](https://github.com/JieGroup/onlineChange/blob/master/vignettes/user-guide.pdf).
 
 ## Acknowledgment
 
