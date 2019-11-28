@@ -3,7 +3,9 @@ The onlineChange python package is designed to quickest detect any change in dis
 
 This is still an ongoing project by a group of researchers from the University of Minnesota. The published software here is an initial version that is ready to use.
 
-For questions and references, please contact Jie Ding at dingj@umn.edu
+For more technical problems, please contact the author of the package Xiangyu Zhang at zhan6004@umn.edu.
+
+For references, please contact Jie Ding at dingj@umn.edu
 
 ## A Quick Setup Guide
 
