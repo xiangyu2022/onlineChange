@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 import sys
 import warnings
+import re
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate as integrate
