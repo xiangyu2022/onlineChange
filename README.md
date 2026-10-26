@@ -23,6 +23,21 @@ python -m pip install onlineChange
 ```python
 from onlineChange import stat, bayes, bayes_unknown_pre
 ```
+
+### Dependency security
+
+The unused `certifi==2019.9.11` pin was removed from `requirements.txt` for
+[GHSA-6q48-6c7w-9gw2](https://github.com/advisories/GHSA-6q48-6c7w-9gw2).
+The package and its remaining requirements do not use certifi. Removing it avoids
+introducing a Python 3.7 minimum from certifi 2026.10.19 into the project's
+existing Python 3.6-3.8 support declarations.
+
+Removing a requirement does not remove an installed copy. Recreate dedicated
+environments without the unused dependency, or, if another tool needs certifi,
+upgrade it to `2026.10.19` or newer on a compatible Python interpreter (that
+release requires Python 3.7 or newer). Check vendored copies and rebuild affected
+container images separately. Repository edits alone do not update deployments.
+
 ## Using This Package
 
 A quick guide of package can be found [here](https://github.com/JieGroup/onlineChange/blob/master/vignettes/user-guide.pdf).
